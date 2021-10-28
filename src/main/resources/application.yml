@@ -1,0 +1,10 @@
+spring:
+  rabbitmq:
+    host: 119.29.120.176
+    port: 5672
+    username: libai
+    password: alice
+server:
+  port: 8080
+  servlet:
+    context-path: /rabbitmq
